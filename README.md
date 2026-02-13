@@ -41,7 +41,7 @@ Below is a step-by-step walkthrough of the system interfaces.
 | **Manual Override** | <img src="رابط_الصورة_5" width="350"> | نظام التحكم اليدوي في حالات الطوارئ لتجاوز الأتمتة التلقائية. |
 | **Data Logging** | <img src="رابط_الصورة_6" width="350"> | تسجيل كافة البيانات والعمليات للرجوع إليها في التقارير اليومية. |
 | **Alarms & Alerts** | <img src="رابط_الصورة_7" width="350"> | نظام تنبيهات فوري يرسل إشعارات للهاتف في حال حدوث أي خلل. |
-| **Security Login** | <img src="رابط_الصورة_8" width="350"> | شاشة الدخول الآمن لضمان عدم وصول غير المصرح لهم للتحكم. |
+| **Security Login** | <img src="https://github.com/labsisouleimen/Python-PLC-Remote-Control/blob/main/image.png?raw=true" width="350"> | شاشة الدخول الآمن لضمان عدم وصول غير المصرح لهم للتحكم. |
 | **Remote Test** | <img src="رابط_الصورة_9" width="350"> | إثبات نجاح التحكم من مسافة أميال بعيدة باستخدام الشبكة السحابية. |
 | **System Info** | <img src="رابط_الصورة_10" width="350"> | معلومات النظام والنسخة الحالية وتفاصيل المزامنة. |
 
