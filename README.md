@@ -32,19 +32,15 @@ Industrial automation often requires expensive licenses (like Siemens TIA Portal
 ## 📸 Comprehensive Visual Showcase
 Below is a step-by-step walkthrough of the system interfaces.
 
-| Feature | Screenshot | Description |
+| Feature | Screenshot | Technical Description |
 | :--- | :---: | :--- |
-| **Main Dashboard** | <img src="رابط_الصورة_1" width="350"> | الواجهة الرئيسية لمراقبة حالة المصنع بالكامل والتحكم في المحركات. |
-| **PLC Config** | <img src="رابط_الصورة_2" width="350"> | إعدادات الربط المباشر مع الـ PLC وتحديد عناوين الـ IP والـ Ports. |
-| **Live Monitoring** | <img src="رابط_الصورة_3" width="350"> | عرض حي ومباشر لبيانات الحساسات (Sensors) وتدفق الإنتاج. |
-| **Android Remote** | <img src="رابط_الصورة_4" width="350"> | تطبيق الأندرويد الذي يسمح بالتحكم الكامل عن بعد من أي مكان. |
-| **Manual Override** | <img src="رابط_الصورة_5" width="350"> | نظام التحكم اليدوي في حالات الطوارئ لتجاوز الأتمتة التلقائية. |
-| **Data Logging** | <img src="رابط_الصورة_6" width="350"> | تسجيل كافة البيانات والعمليات للرجوع إليها في التقارير اليومية. |
-| **Alarms & Alerts** | <img src="رابط_الصورة_7" width="350"> | نظام تنبيهات فوري يرسل إشعارات للهاتف في حال حدوث أي خلل. |
-| **Security Login** | <img src="https://github.com/labsisouleimen/Python-PLC-Remote-Control/blob/main/image.png?raw=true" width="350"> | شاشة الدخول الآمن لضمان عدم وصول غير المصرح لهم للتحكم. |
-| **Remote Test** | <img src="رابط_الصورة_9" width="350"> | إثبات نجاح التحكم من مسافة أميال بعيدة باستخدام الشبكة السحابية. |
-| **System Info** | <img src="رابط_الصورة_10" width="350"> | معلومات النظام والنسخة الحالية وتفاصيل المزامنة. |
-
+| **Main Dashboard** | <img src="https://github.com/user-attachments/assets/1344c57e-a452-4c4a-b563-757027d0706c" width="300"> | Central SCADA interface for full factory monitoring and real-time engine control. |
+| **PLC Config** | <img src="https://github.com/labsisouleimen/Python-PLC-Remote-Control/raw/main/image.png?raw=true" width="300"> | Direct PLC communication setup including IP configuration, Rack, and Slot ports. |
+| **Timer PLC** | <img src="https://github.com/labsisouleimen/Python-PLC-Remote-Control/blob/main/po3.PNG?raw=true" width="300"> | Real-time monitoring and control of PLC Timers for precise industrial sequence management. |
+| **Android Remote** | <img src="https://github.com/labsisouleimen/Python-PLC-Remote-Control/blob/main/photo_2026-02-13_11-10-52.jpg?raw=true" width="220"> | Native Android application for high-speed remote monitoring and mobile factory control. |
+| **Counter PLC** | <img src="https://github.com/labsisouleimen/Python-PLC-Remote-Control/blob/main/po4.PNG?raw=true" width="300"> | Management of PLC Counters to track production cycles and automated batch processing. |
+| **Data Block (DB)** | <img src="https://github.com/labsisouleimen/Python-PLC-Remote-Control/blob/main/po5.PNG?raw=true" width="300"> | Direct interface for Reading/Writing Data Blocks to handle industrial variables and registers. |
+| **Control Panel** | <img src="https://github.com/labsisouleimen/Python-PLC-Remote-Control/blob/main/po2.PNG?raw=true" width="300"> | Manual override station for secure hardware switching and system-wide state control. |
 ---
 
 ## 📜 License
