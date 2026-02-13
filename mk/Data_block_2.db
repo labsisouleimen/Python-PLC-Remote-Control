@@ -1,0 +1,18 @@
+﻿DATA_BLOCK "Data_block_2"
+{ S7_Optimized_Access := 'FALSE' }
+VERSION : 0.1
+NON_RETAIN
+   STRUCT 
+      st1 : Bool;
+      st2 : Bool;
+      ss1 : Int;
+      ss2 : Int;
+      ss3 : Int;
+      ss4 : Int;
+   END_STRUCT;
+
+
+BEGIN
+
+END_DATA_BLOCK
+

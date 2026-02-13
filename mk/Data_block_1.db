@@ -1,0 +1,17 @@
+﻿DATA_BLOCK "Data_block_1"
+{ S7_Optimized_Access := 'FALSE' }
+VERSION : 0.1
+NON_RETAIN
+   STRUCT 
+      Enable : Bool;
+      Reset : Bool;
+      Jog_Forward : Bool;
+      Jog_Backward : Bool;
+      velocity : Int;
+   END_STRUCT;
+
+
+BEGIN
+
+END_DATA_BLOCK
+
