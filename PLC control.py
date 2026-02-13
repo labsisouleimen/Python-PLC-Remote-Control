@@ -13,7 +13,7 @@ connectapp = ctk.CTk(fg_color="#ffffff")
 connectapp.title("Connect To PLC")
 connectapp.geometry("400x500")
 connectapp.resizable(False, False)
-connectapp.iconbitmap("C:/Users/mehdi/Desktop/images/service.ico")
+connectapp.iconbitmap("images/service.ico")
 
 #------------------- Center Window Function ------------------------#
 def center_window(window):
@@ -77,7 +77,7 @@ def connect_to_plc():
     center_window(app)
 
     #------------------ Image ------------------#
-    app_image = Image.open("C:/Users/mehdi/Desktop/images/Gemini_Generated_Image_tnt61dtnt61dtnt6.png")
+    app_image = Image.open("images/Gemini_Generated_Image_tnt61dtnt61dtnt6.png")
     app_photo = ctk.CTkImage(dark_image=app_image, size=(300, 300))
     image_label = ctk.CTkLabel(app, image=app_photo, text="")
     image_label.pack(pady=50, anchor="center")
@@ -485,7 +485,7 @@ def connect_to_plc():
         def Read():
             logging.getLogger("snap7").setLevel(logging.CRITICAL)
             import re
-            with open('C:/Users/mehdi/Desktop/mk/Data_block_1.db', 'r', encoding='utf-8') as file:
+            with open('mk/Data_block_1.db', 'r', encoding='utf-8') as file:
                 content = file.read()
             variables = re.findall(r'\b(\w+)\s*:\s*(\w+);', content)
             bool_vars = [name for name, typ in variables if typ.lower() == "bool"]
@@ -594,13 +594,13 @@ def connect_to_plc():
         return btn
 
     # Add buttons to topbar
-    list_button_topbar(topbar, "C:/Users/mehdi/Desktop/images/home.png", "Home")
-    list_button_topbar(topbar, "C:/Users/mehdi/Desktop/images/control-panel.png", "Control panel",command=controlePanel)
-    list_button_topbar(topbar, "C:/Users/mehdi/Desktop/images/countdown.png", "Timer",command=timer_plc)
-    list_button_topbar(topbar, "C:/Users/mehdi/Desktop/images/history.png", "Counter",command=counter_plc)
-    list_button_topbar(topbar, "C:/Users/mehdi/Desktop/images/database.png", "Data Block",command=db_block)
+    list_button_topbar(topbar, "images/home.png", "Home")
+    list_button_topbar(topbar, "images/control-panel.png", "Control panel",command=controlePanel)
+    list_button_topbar(topbar, "images/countdown.png", "Timer",command=timer_plc)
+    list_button_topbar(topbar, "images/history.png", "Counter",command=counter_plc)
+    list_button_topbar(topbar, "images/database.png", "Data Block",command=db_block)
     #--------------- Image Logo Company --------------------------------------------------------------------#
-    logo_app=Image.open("C:/Users/mehdi/Desktop/images/IFMCP.jpg")
+    logo_app=Image.open("images/IFMCP.jpg")
     logo_image=ctk.CTkImage(dark_image=logo_app,size=(200,150))
     logolabel=ctk.CTkLabel(app,image=logo_image,text="")
     logolabel.place(x=10, y=10)
@@ -621,16 +621,16 @@ def connect_to_plc():
         
         btn1.bind("<Enter>", on_enter1)
         btn1.bind("<Leave>", on_leave1)
-    list_button_toolbar(app, "C:/Users/mehdi/Desktop/images/setting.png", "Setting", rely=0.05)
-    list_button_toolbar(app, "C:/Users/mehdi/Desktop/images/smartphone.png", "Phone backup", rely=0.25)
-    list_button_toolbar(app, "C:/Users/mehdi/Desktop/images/global-network.png", "PLC Communication", rely=0.45)
+    list_button_toolbar(app, "images/setting.png", "Setting", rely=0.05)
+    list_button_toolbar(app, "images/smartphone.png", "Phone backup", rely=0.25)
+    list_button_toolbar(app, "images/global-network.png", "PLC Communication", rely=0.45)
 
 #------------------- Connect Button ------------------------#
 Connexion = ctk.CTkButton(frame, text='Connecte', command=connect_to_plc)
 Connexion.place(x=80, y=210)
 
 #------------------- Welcome Image ------------------------#
-welcome_app = Image.open("C:/Users/mehdi/Desktop/images/welcomelogin.png")
+welcome_app = Image.open("images/welcomelogin.png")
 welcome_image = ctk.CTkImage(dark_image=welcome_app, size=(250, 100))
 welcomeimg_label = ctk.CTkLabel(connectapp, image=welcome_image, text="")
 welcomeimg_label.pack(pady=25, anchor="center")
